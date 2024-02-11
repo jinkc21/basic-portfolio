@@ -15,7 +15,7 @@ Use this site to review my portfolio.
 Portfolio can be found at (https://jinkc21.github.io/wk2-challenge/)
 
     ```md
-    ![screenshot](/assets/screenshot.png)
+    ![screenshot](assets/screenshot.png)
     ```
 
 ## Credits
