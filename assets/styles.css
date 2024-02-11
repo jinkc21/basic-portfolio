@@ -8,9 +8,20 @@ body {
     color: aliceblue;
 
 }
+#bio {
+    display: inline-flex;
+    width: 80%;
+    justify-content: center;
+ }
+.about-me {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
 .top-row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .bottom-row {
@@ -37,10 +48,21 @@ body {
 
 .field-bottom {
     background:linear-gradient(blue 20%, navy 80%);
-    
-   
-}
+}    
 
+.h2 {
+    font-weight: bolder;
+    color: aliceblue
+}   
+
+.nav-link {
+    display: flex;
+    justify-content:space-between;
+ 
+    }
+li {
+    list-style: none;
+}
 legend {
     text-align: center;
     font-weight: bold;
@@ -67,6 +89,9 @@ legend {
     height: 100%;
 }
 
-#wk1-mp {
+#wk1-mp, #wk2-mp {
     width: 100%;
+}
+#profile-pic {
+    width: 25%;
 }

@@ -10,14 +10,27 @@
 <main>
     <heading>
         <h1>Jin's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="#about-me">My Story</a>
+                </li>
+                <li><a class="nav-link" href="#work">My Work</a>
+                </li>
+                <li><a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
     </heading>
-<section class="about-me">
+<section id="about-me">
 <h2>My Story</h2>
-<p><!--Write a paragraph about myself -->
-My name is Jin. I am currently enrolled in a coding bootcamp offered through the UNC-Chapel Hill Digital and Lifelong Learning.
-</p>
+<img id="profile-pic" src="./assets/profile-pic.jpg" alt="me and Big Boi">
+<figcaption>(Me and my best friend, Big Boi)</figcaption>
+<div><p>
+<span id="bio">My name is Jin. I am currently enrolled in a coding bootcamp offered through the UNC-Chapel Hill Digital and Lifelong Learning. We have just completed our second week of classes. Here are some examples of what I have learned so far.</span>
+</p></div>
 
-<section class="work">
+<section id="work">
+    <h2>My Work</h2>
     <section class="top-row">
             <div id="wk1-challenge">
             <fieldset class="field-top"><legend>Week 1 Challenge</legend>
@@ -39,7 +52,9 @@ My name is Jin. I am currently enrolled in a coding bootcamp offered through the
         <div id="wk2-mini-project">
             <fieldset class="field-bottom"><legend>Week 2 Mini Project</legend>
             <p>CSS snippet cheatsheet</p>
-            <fieldset class="work-box-bottom"></fieldset>
+            <fieldset class="work-box-bottom">
+                <a href="https://jinkc21.github.io/wk2-mini-project/"><img id="wk2-mp" src="./assets/wk2-mp.png"></a>
+            </fieldset>
             </fieldset>
         </div>
             
@@ -47,13 +62,15 @@ My name is Jin. I am currently enrolled in a coding bootcamp offered through the
 </section>
 
 </section>
-
-
-
-
-
+<br><br><br>
+<section id="contact">
+    <a href="mailto: jinch0e@yahoo.com">Contact Me</a>
+</section>
 </main>
-
+<br><br>
+<footer>
+    (c) 2024
+</footer>
 
 </body>
 
