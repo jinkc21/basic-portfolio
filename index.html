@@ -4,36 +4,40 @@
     <link rel="stylesheet" href="./assets/styles.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jin's Portfolio</title>
+    <title class="project-title">Jin's Portfolio</title>
 </head>
 <body>
 <main>
+  <section id="welcome-section">
     <heading>
-        <h1>Jin's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a class="nav-link" href="#about-me">My Story</a>
+         <h1>Jin's Portfolio</h1>
+        <nav id="navbar">
+            <ul id="link-list">  <!-- target="_blank"   add this to open in new window-->
+                <li><a class="nav-link" id="profile-link" href="#about-me">My Story</a>
                 </li>
-                <li><a class="nav-link" href="#work">My Work</a>
+                <li><a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li><a class="nav-link" href="#contact">Contact Me</a>
                 </li>
             </ul>
         </nav>
     </heading>
+    </section>
 <section id="about-me">
 <h2>My Story</h2>
-<div><p><!--Write a paragraph about myself -->
-<span id="bio">My name is Jin. I am currently enrolled in a coding bootcamp offered through the UNC-Chapel Hill Digital and Lifelong Learning. We have just completed our second week of classes. Here are some examples of what I have learned so far.</span>
+<img id="profile-pic" src="./assets/profile-pic.jpg" alt="me and Big Boi">
+<figcaption>(Me and my best friend, Big Boi)</figcaption>
+<div><p>
+<span id="bio">My name is Jin. I live in Durham, NC. I am a bartender and also currently enrolled in a coding bootcamp offered through UNC-Chapel Hill Digital and Lifelong Learning. We have just completed our second week of classes. Here are some examples of what I have learned so far.</span>
 </p></div>
 
-<section id="work">
+<section id="projects">
     <h2>My Work</h2>
     <section class="top-row">
             <div id="wk1-challenge">
             <fieldset class="field-top"><legend>Week 1 Challenge</legend>
             <p>Horiseon Homepage</p>
-            <fieldset class="work-box-top">
+            <fieldset class="project-tile work-box-top">
                 <a href="https://jinkc21.github.io/wk1-challenge/"><img id="horiseon" src="./assets/Horiseon.png"></a></fieldset>
             </fieldset>
         </div>
@@ -42,7 +46,7 @@
         <div id="wk1-mini-project">
             <fieldset class="field-bottom"><legend>Week 1 Mini Project</legend>
             <p>Building a landing page</p>
-            <fieldset class="work-box-bottom">
+            <fieldset class="project-tile work-box-bottom">
                 <a href="https://jinkc21.github.io/wk1-mini-project/"><img id="wk1-mp" src="./assets/wk1-mp.png"></a>
             </fieldset>
             </fieldset>
@@ -50,7 +54,7 @@
         <div id="wk2-mini-project">
             <fieldset class="field-bottom"><legend>Week 2 Mini Project</legend>
             <p>CSS snippet cheatsheet</p>
-            <fieldset class="work-box-bottom">
+            <fieldset class="project-tile work-box-bottom">
                 <a href="https://jinkc21.github.io/wk2-mini-project/"><img id="wk2-mp" src="./assets/wk2-mp.png"></a>
             </fieldset>
             </fieldset>
@@ -64,8 +68,9 @@
 <section id="contact">
     <a href="mailto: jinch0e@yahoo.com">Contact Me</a>
 </section>
-</main>
 <br><br>
+</main>
+
 <footer>
     (c) 2024
 </footer>
