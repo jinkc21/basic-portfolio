@@ -1,80 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./assets/styles.css">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="project-title">Jin's Portfolio</title>
-</head>
-<body>
-<main>
-  <section id="welcome-section">
-    <heading>
-         <h1>Jin's Portfolio!!!!</h1>
-        <nav id="navbar">
-            <ul id="link-list">  <!-- target="_blank"   add this to open in new window-->
-                <li><a class="nav-link" id="profile-link" href="#about-me">My Story</a>
-                </li>
-                <li><a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li><a class="nav-link" href="#contact">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </heading>
-    </section>
-<section id="about-me">
-<h2>My Story</h2>
-<img id="profile-pic" src="./assets/profile-pic.jpg" alt="me and Big Boi">
-<figcaption>(Me and my best friend, Big Boi)</figcaption>
-<div><p>
-<span id="bio">My name is Jin. I live in Durham, NC. I am a bartender and also currently enrolled in a coding bootcamp offered through UNC-Chapel Hill Digital and Lifelong Learning. We have just completed our second week of classes. Here are some examples of what I have learned so far.</span>
-</p></div>
-
-<section id="projects">
-    <h2>My Work</h2>
-    <section class="top-row">
-            <div id="wk1-challenge">
-            <fieldset class="field-top"><legend>Week 1 Challenge</legend>
-            <p>Horiseon Homepage</p>
-            <fieldset class="project-tile work-box-top">
-                <a href="https://jinkc21.github.io/wk1-challenge/"><img id="horiseon" src="./assets/Horiseon.png"></a></fieldset>
-            </fieldset>
-        </div>
-        </section>
-    <section class="bottom-row">
-        <div id="wk1-mini-project">
-            <fieldset class="field-bottom"><legend>Week 1 Mini Project</legend>
-            <p>Building a landing page</p>
-            <fieldset class="project-tile work-box-bottom">
-                <a href="https://jinkc21.github.io/wk1-mini-project/"><img id="wk1-mp" src="./assets/wk1-mp.png"></a>
-            </fieldset>
-            </fieldset>
-        </div>
-        <div id="wk2-mini-project">
-            <fieldset class="field-bottom"><legend>Week 2 Mini Project</legend>
-            <p>CSS snippet cheatsheet</p>
-            <fieldset class="project-tile work-box-bottom">
-                <a href="https://jinkc21.github.io/wk2-mini-project/"><img id="wk2-mp" src="./assets/wk2-mp.png"></a>
-            </fieldset>
-            </fieldset>
-        </div>
-            
+    <head>
+        <link rel="stylesheet" href="./assets/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title class="project-title">Jin's Portfolio</title>
+    </head>
+    <body>
+        <main>
+            <section id="welcome-section">
+                <nav id="navbar">
+                    <ul id="link-list">
+                        <!-- target="_blank"   add this to open in new window-->
+                        <li>
+                            <a class="nav-link" id="profile-link" href="#about-me-section">My Story</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav>
+                <heading>
+                    <h1>Jin's Portfolio</h1>
+                </heading>
             </section>
-</section>
-
-</section>
-<br><br><br>
-<section id="contact">
-    <a href="mailto: jinch0e@yahoo.com">Contact Me</a>
-</section>
-<br><br>
-</main>
-
-<footer>
-    (c) 2024
-</footer>
-
-</body>
-
+            <section id="about-me-section">
+                <h2>My Story</h2>
+                <div id="about-me">
+                    <div class="image-wrapper">
+                        <img id="profile-pic" src="./assets/profile-pic.jpg" alt="me and Big Boi">
+                        <figcaption>(Me and my best friend, Big Boi)</figcaption>
+                    </div>
+                    <div class="about-me-content">
+                        <p>
+                            <span id="bio">My name is Jin. I live in Durham, NC. I am a bartender and also currently enrolled in a coding bootcamp offered through UNC-Chapel Hill Digital and Lifelong Learning. We have just completed our second week of classes. Here are some examples of what I have learned so far.</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h2>My Work</h2>
+                <section class="top-row">
+                    <div id="wk1-challenge">
+                        <fieldset class="field-top">
+                            <legend>Week 1 Challenge</legend>
+                            <p>Horiseon Homepage</p>
+                            <fieldset class="project-tile work-box-top">
+                                <a href="https://jinkc21.github.io/wk1-challenge/">
+                                    <img id="horiseon" src="./assets/Horiseon.png">
+                                </a>
+                            </fieldset>
+                        </fieldset>
+                    </div>
+                </section>
+                <section class="bottom-row">
+                    <div id="wk1-mini-project">
+                        <fieldset class="field-bottom">
+                            <legend>Week 1 Mini Project</legend>
+                            <p>Building a landing page</p>
+                            <fieldset class="project-tile work-box-bottom">
+                                <a href="https://jinkc21.github.io/wk1-mini-project/">
+                                    <img id="wk1-mp" src="./assets/wk1-mp.png">
+                                </a>
+                            </fieldset>
+                        </fieldset>
+                    </div>
+                    <div id="wk2-mini-project">
+                        <fieldset class="field-bottom">
+                            <legend>Week 2 Mini Project</legend>
+                            <p>CSS snippet cheatsheet</p>
+                            <fieldset class="project-tile work-box-bottom">
+                                <a href="https://jinkc21.github.io/wk2-mini-project/">
+                                    <img id="wk2-mp" src="./assets/wk2-mp.png">
+                                </a>
+                            </fieldset>
+                        </fieldset>
+                    </div>
+                </section>
+            </section>
+            <br>
+            <section id="contact">
+                📧
+                <a href="mailto: jinch0e@yahoo.com">Contact Me</a>
+                📧
+            </section>
+            <br>
+        </main>
+        <footer>
+            (c) 2024
+        </footer>
+    </body>
 </html>
