@@ -19,7 +19,7 @@ Portfolio can be found at (https://jinkc21.github.io/wk2-challenge/)
 
 
 
-    ![screenshot](./assets/screenshot.png?raw=true "screenshot")
+![screenshot](./assets/screenshot.png)
 
 
 
