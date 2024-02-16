@@ -65,7 +65,10 @@ heading {
 }
 
 
-.work-box-top , .work-box-bottom,.field-top, .field-bottom  {
+.work-box-top,
+.work-box-bottom,
+.field-top,
+.field-bottom {
     background-image: linear-gradient(blue 20%, navy 80%);
 
 }
@@ -131,32 +134,36 @@ legend {
     text-align: center;
     font-size: 36px;
 }
+
 footer {
     text-align: center;
 }
+
 a:link {
     color: aliceblue;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: red;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-  }
-  
-  a:active {
+}
+
+a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
+
+/* For tablets or smaller */
 @media screen and (max-width: 720px) {
     * {
         background: none;
@@ -170,9 +177,9 @@ a:link {
 
     #link-list {
         display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
-    gap: 1rem;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
     }
 }
